@@ -1,0 +1,29 @@
+:root{
+  /* --navColor:rgb(73, 221, 247); */
+  --navColor:rgb(247, 73, 233);
+}
+
+.footerRedes {
+    position: -webkit-sticky;
+    bottom: 0;
+    background-color: var(--navColor);
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 100%; }
+
+.fantasia{
+  font-family: 'French Script MT', sans-serif;
+  font-size: 30px;
+}
+.logoFooter{
+  width: 100px;
+  /* position: relative;
+  top: 4px; */
+}

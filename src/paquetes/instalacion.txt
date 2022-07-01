@@ -1,0 +1,27 @@
+---para copiar al portapapeles
+link:
+    https://www.npmjs.com/package/react-copy-to-clipboard
+comando:
+    npm i react-copy-to-clipboard
+
+
+---para los alert menos invasivos:
+link:
+    https://react-hot-toast.com/
+comando:
+    npm install react-hot-toast
+
+---para la fuente french:
+link:
+    https://www.cdnfonts.com/french-script-mt.font
+etiqueta html:
+    <link href="http://fonts.cdnfonts.com/css/french-script-mt" rel="stylesheet">
+etiqueta css:
+    font-family: 'French Script MT', sans-serif;
+
+ 
+ ---para usar la etiqueta Link
+ comando:
+ npm i react-router-dom@5.2.0
+                                                
+                

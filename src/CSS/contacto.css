@@ -1,0 +1,31 @@
+
+.subtitulo{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 30px;
+    font-size: 200%;
+}
+.contactoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto{
+    width: 50%;
+    margin: 15px;
+    background-color: plum;
+    padding: 20px;
+}
+.contacto p{
+    font-size: 20px;
+    text-align: center;
+}
+.iconoWp{
+    width: 100px;
+    margin-top: 22px;
+}
+.copiar{
+    background-color: violet;
+    padding: 5px;
+    border-radius: 22px;
+}

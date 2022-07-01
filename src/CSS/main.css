@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navColor:rgb(247, 73, 233);
+}
+#root{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tituloMain{
+    color: blueviolet;
+    text-align: center;
+    margin: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+.catalogo{
+    display: flex;
+    
+}
+.contenedorTarjetas{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.tarjetas{
+    background-color: var(--navColor);
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+
+}
+.tarjetas-img{
+    width:100%;
+    height:200px;
+}
+.logo{
+    text-align: center;
+    font-family: 'French Script MT', sans-serif;
+    /* font-size: 50px; */
+    background-color: var(--navColor);
+}
+.logo a{
+    color: navy;
+    text-decoration: none;
+
+}
+.logoInitial{
+    width: 100%;
+    height: 61px;
+
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+}
+
+.detallesCard{
+    margin-left: 2px;
+    color: black;
+}
+.tarjetas a{
+    text-decoration: none;
+}
+
+.searchContainer{
+    text-align: center;
+}
+#buscador{
+    text-align: center;
+    border: 2px black solid;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.main{
+    text-align: center;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    color: black;
+}
+.provContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 95%;
+    font-size: 25px;
+}
+.provContainer a{
+    text-decoration: none;
+}
+.provincias{
+    background-color: plum;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+.provincias a{
+    font-size: 50px;
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px){
+    .main{
+        display: block;
+    }
+    .logoInitial{
+        position: initial;
+    }
+    /* .provContainer{
+        flex-direction: row;
+        justify-content: center;
+    } */
+    .tarjetas{
+        width: 200px;
+    }
+}
+
+

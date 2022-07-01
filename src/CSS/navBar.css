@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --navColor:rgb(247, 73, 233);
+}
+
+.navbar{
+    background-color: var(--navColor);
+    /* height: ; */
+}
+
+.menu{
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0.8rem;
+
+}
+.menu li a:hover{
+    background-color: violet;
+    width: 100vw;
+}
+
+
+
+/* submenu */
+.menu{
+    margin-left: 0;
+}
+
+.menu li ul{
+    display: none;
+    width: 100px;
+    text-align: center;
+}
+.menu li:hover > ul{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    color: black;
+    margin: 0;
+    z-index: 5;
+}
+
+.menu li ul li{
+    /* background-color: aquamarine; */
+    border-collapse:separate;
+    height: 50px;
+    padding: 0;
+
+}
+
+
+.logoContainer{
+    /* background-color: black; */
+    width: 100%;
+    text-align: center;
+    /* position: absolute;
+    top: 0; */
+}
+/* .logoContainer img{
+    text-align: center;
+    visibility: hidden;
+} */
+
+
+
+
+
+
+
+/* para escritorio */ 
+@media only screen and (min-width: 500px){
+    .navbar{
+        text-decoration: none;
+        height: 60px;
+    
+    }
+    .logo{
+        position: absolute;
+        top: 4px;
+        left: 10px;
+        text-align: center;
+        font-family: 'French Script MT', sans-serif;
+        height: 48px;
+        color: blueviolet;
+    }
+    .menu{
+        list-style: none;
+        position: absolute;
+        right: 30px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .menu li{
+        padding: 0;
+    }
+    .menu li a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 20px;
+    
+    }
+    .menu li a:hover{
+        background-color: violet;
+        width: 100%;
+    }
+    
+    
+    /* submenu */
+    .menu{
+        margin-left: 0;
+    }
+    
+    .menu li ul{
+        display: none;
+        width: 110px;
+    }
+    .menu li:hover > ul{
+        display: block;
+        color: black;
+        margin: 0;
+        z-index: 5;
+        width: 110px;
+    }
+    
+    .menu li ul li{
+        background-color: var(--navColor);
+        border-collapse:separate;
+        display: block;
+        height: 55px;
+        padding: 0;
+    
+    }
+    .zona{
+        width: 120px;
+        z-index: 10;
+    }
+    .zona ul li{
+        width: 120px;
+    }
+    
+    
+}
+
+
