@@ -4,14 +4,14 @@ import User from "./User";
 import '../CSS/main.css'
 import { data } from "./Data";
 import { useParams } from "react-router-dom";
-import Contacto from "./Contacto";
+// import Contacto from "./Contacto";
 
 
 export default function Users(){
 
     const [items,setItems]= useState([])
     let { ubicacion } = useParams();
-    let { category } = useParams();
+    // let { category } = useParams();
 
     const[busqueda, setbusqueda]= useState("") //buscador
   
@@ -65,7 +65,7 @@ export default function Users(){
             
         </div>
         <div style={{textAlign:"center"}}>
-            {items?.length==0?
+            {items?.length===0?
             <h2>No hay resultado</h2>: null}
         </div>
 

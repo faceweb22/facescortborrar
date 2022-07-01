@@ -24,7 +24,7 @@ export default function UserDetailContainer(){
           console.log(error)
       })
 
-  },[])
+  },[id])
 
     return(
         <>

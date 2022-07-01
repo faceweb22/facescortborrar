@@ -48,7 +48,7 @@ ul{
 }
 .logo{
     text-align: center;
-    font-family: 'French Script MT', sans-serif;
+    /* font-family: 'French Script MT', sans-serif; */
     /* font-size: 50px; */
     background-color: var(--navColor);
 }

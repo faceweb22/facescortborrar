@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../CSS/contacto.css'
 // import { v4 as uuidv4 } from 'uuid'
 import Copiar from './Copiar'
@@ -17,7 +17,7 @@ export default function Contacto() {
             <p>
                 Si deseas publicar tu perfil dejanos un mensaje via Whatsapp:
                 <br></br> 
-                <img src={wp} className="iconoWp"></img> <br></br>
+                <img src={wp} className="iconoWp" alt='logo de whatapp'></img> <br></br>
                 <span id='copiarWp'>11-2566-5213</span> 
                 <Copiar toCopy={wpContacto}/>
 

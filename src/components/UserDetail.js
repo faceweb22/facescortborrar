@@ -1,6 +1,6 @@
 
 
-import React, { useState } from "react";
+import React from "react";
 import '../CSS/detallesUser.css'
 
 export default function UserDetail ({items:{id, nombre, category, fotos, wp, portada, descripcion}}){
@@ -21,7 +21,7 @@ export default function UserDetail ({items:{id, nombre, category, fotos, wp, por
             </div>
             <div className="imgContainer">
                 <div className="marco">
-                    <img src={portada} className="imgDetail"/>
+                    <img src={portada} className="imgDetail" alt="foto de portada"/>
                     {/* <img className="marcaDeAgua" src="https://github.com/faceweb22/face/blob/reacomodando/src/multimedia/faceLogo.png?raw=true" width="200px"></img> */}
 
                 </div>
@@ -29,7 +29,7 @@ export default function UserDetail ({items:{id, nombre, category, fotos, wp, por
                 {
                     fotos?.map(foto=>(
                         <div className="marco">
-                            <img src={foto} key={foto.toString()} className="imgDetail"></img>
+                            <img src={foto} key={foto.toString()} className="imgDetail" alt="fotos"></img>
                             {/* <img className="marcaDeAgua" src="https://github.com/faceweb22/face/blob/reacomodando/src/multimedia/faceLogo.png?raw=true" width="200px"></img> */}
 
                         </div>  
