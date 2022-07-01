@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/facescort/static/css/main.812fd253.css",
+    "main.js": "/facescort/static/js/main.00fe8627.js",
+    "static/js/787.9f8792f0.chunk.js": "/facescort/static/js/787.9f8792f0.chunk.js",
+    "index.html": "/facescort/index.html",
+    "static/media/wp.svg": "/facescort/static/media/wp.202a5bbf98298b6a0c2c4b46f368fa56.svg",
+    "main.812fd253.css.map": "/facescort/static/css/main.812fd253.css.map",
+    "main.00fe8627.js.map": "/facescort/static/js/main.00fe8627.js.map",
+    "787.9f8792f0.chunk.js.map": "/facescort/static/js/787.9f8792f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.812fd253.css",
+    "static/js/main.00fe8627.js"
+  ]
+}
